@@ -24,5 +24,3 @@ jobs:
           # branch: main
           # tag: ''
           git-token: ${{ github.token }}
-          docker-username: ${{ secrets.DOCKER_HUB_USERNAME }}
-          docker-password: ${{ secrets.DOCKER_HUB_PASSWORD }}
